@@ -3,10 +3,13 @@
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bahianita&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khitan+Small+Script&display=swap');
 
 html,
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Jockey One', sans-serif;;
   height: 100%;
   margin: 0;
   overflow-x: hidden;
@@ -46,14 +49,15 @@ section img.background {
 }
 
 h1 {
-  font-family: "SuperSummer";
-  font-size: 7rem;
+  font-family: 'Bahianita', sans-serif;
+  font-size: 79px;
   font-weight: 400;
   line-height: 0.8;
   margin: 0;
 }
 
 h2 {
+  font-family: 'Bahianita', sans-serif;
   font-size: 2rem;
   font-weight: 400;
   margin: 0;
@@ -124,17 +128,3 @@ img.socialIcon {
   width: 30px;
 }
 
-
-@font-face {
-  font-family: 'FlowerKingdom';
-  src: url('../assets/Flowers\ Kingdom.ttf') format('ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'SuperSummer';
-  src: url('../assets/Super\ Summer\ Personal\ Use.ttf') format('ttf');
-  font-weight: normal;
-  font-style: normal;
-}
