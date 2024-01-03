@@ -36,6 +36,15 @@ const Home = ({ name, title }) => {
         <h1>{name}</h1>
         <h2>{title}</h2>
       </div>
+      <div>
+        <h1 style={{ color: "whitesmoke", 
+      position: "absolute", 
+      top: "50%", 
+      left: "80%", 
+      width: "17rem" }}>
+          AraeneaCLI
+        </h1>
+      </div>
       <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
         <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
       </div>
