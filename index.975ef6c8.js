@@ -28670,18 +28670,18 @@ const Home = ({ name , title  })=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    color: "whitesmoke",
+                    position: "absolute",
+                    top: "50%",
+                    left: "80%",
+                    width: "17rem"
+                },
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                    style: {
-                        color: "whitesmoke",
-                        position: "absolute",
-                        top: "50%",
-                        left: "80%",
-                        width: "17rem"
-                    },
                     children: "AraeneaCLI"
                 }, void 0, false, {
                     fileName: "src/Components/Home.jsx",
-                    lineNumber: 40,
+                    lineNumber: 44,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
