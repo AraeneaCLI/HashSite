@@ -1,10 +1,13 @@
 @import "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Jockey+One&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Bahianita&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Noto+Serif+Khitan+Small+Script&display=swap";
 html, body {
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
-  font-family: Montserrat, sans-serif;
+  font-family: Jockey One, sans-serif;
   overflow-x: hidden;
 }
 
@@ -41,8 +44,8 @@ section img.background {
 
 h1 {
   margin: 0;
-  font-family: SuperSummer;
-  font-size: 7rem;
+  font-family: Bahianita, sans-serif;
+  font-size: 79px;
   font-weight: 400;
   line-height: .8;
 }
@@ -50,6 +53,7 @@ h1 {
 h2 {
   margin: 0;
   padding-top: 1rem;
+  font-family: Bahianita, sans-serif;
   font-size: 2rem;
   font-weight: 400;
 }
@@ -116,20 +120,6 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
-}
-
-@font-face {
-  font-family: FlowerKingdom;
-  src: url("Flowers Kingdom.81f5c3b1.ttf") format("ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: SuperSummer;
-  src: url("Super Summer Personal Use.a361253a.ttf") format("ttf");
-  font-weight: normal;
-  font-style: normal;
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */

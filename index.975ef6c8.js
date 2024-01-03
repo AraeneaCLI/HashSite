@@ -27247,7 +27247,7 @@ const About = ()=>{
                         style: {
                             textAlign: "left",
                             columns: 2,
-                            fontSize: "1.25rem",
+                            fontSize: "24px",
                             margin: "2rem 3rem",
                             gap: "3rem"
                         },
@@ -28670,6 +28670,26 @@ const Home = ({ name , title  })=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    style: {
+                        color: "whitesmoke",
+                        position: "absolute",
+                        top: "50%",
+                        left: "80%",
+                        width: "17rem"
+                    },
+                    children: "AraeneaCLI"
+                }, void 0, false, {
+                    fileName: "src/Components/Home.jsx",
+                    lineNumber: 40,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/Components/Home.jsx",
+                lineNumber: 39,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
                     position: "absolute",
                     bottom: "3rem",
@@ -28684,12 +28704,12 @@ const Home = ({ name , title  })=>{
                     alt: imageAltText
                 }, void 0, false, {
                     fileName: "src/Components/Home.jsx",
-                    lineNumber: 40,
+                    lineNumber: 49,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 39,
+                lineNumber: 48,
                 columnNumber: 7
             }, undefined)
         ]
