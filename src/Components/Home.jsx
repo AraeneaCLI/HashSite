@@ -20,7 +20,7 @@ import PropTypes from "prop-types";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/banner.jpg";
+import image from "../images/backgroundAraeneaCLI.jpg";
 
 const imageAltText = "Banner For AraeneaCLI Portfolio Website";
 
@@ -32,16 +32,20 @@ const Home = ({ name, title }) => {
       position: "absolute", 
       top: "5rem", 
       left: "4rem", 
-      width: "17rem" }}>
+          width: "17rem",
+        }}
+      >
         <h1>{name}</h1>
         <h2>{title}</h2>
       </div>
       <div>
         <h1 style={{ color: "whitesmoke", 
       position: "absolute", 
-      top: "50%", 
+      top: "85%", 
       left: "80%", 
-      width: "17rem" }}>
+            width: "17rem",
+          }}
+        >
           AraeneaCLI
         </h1>
       </div>
