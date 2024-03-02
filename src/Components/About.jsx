@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/banner5.jpg";
+import image from "../images/backgroundAraeneaCLI2.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "CSE(Cyber Security) Student at G. H.Raisoni Institute of Engineering and Technology";
+  "CSE in Cyber Security Student";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -32,10 +32,10 @@ const description =
  */
 const skillsList = [
   "Full Stack Development",
+  "Mobile Application Development",
   "Desktop Application Development",
-  "Internet of Things",
   "Reverse Engineering",
-  "UI/UX",
+  "Digital Forensics"
 ];
 
 /**
@@ -49,7 +49,7 @@ const detailOrQuote =
 const About = () => {
   return (
     <section className="padding" id="about">
-      <img className="background" src={image} alt={imageAltText} justify-content="center" />
+      <img className="background" src={image} alt="" />
       <div
         style={{
           color: "whitesmoke",
@@ -62,7 +62,6 @@ const About = () => {
       >
         <h2>About Myself</h2>
         <p className="large">{description}</p>
-        <hr />
         <ul
           style={{
             textAlign: "left",
@@ -76,7 +75,6 @@ const About = () => {
             <li key={skill}>{skill}</li>
           ))}
         </ul>
-        <hr />
         <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
       </div>
     </section>
