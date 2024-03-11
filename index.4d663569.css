@@ -1,10 +1,11 @@
 @import "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap";
-@import "https://fonts.googleapis.com/css2?family=Jockey+One&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Bahianita&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Jockey+One&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Noto+Serif+Khitan+Small+Script&display=swap";
 html, body {
   height: 100%;
   width: 100%;
+  color: #faebd7;
   margin: 0;
   padding: 0;
   font-family: Jockey One, sans-serif;
@@ -32,10 +33,13 @@ section.padding {
 
 section img.background {
   height: 100%;
-  object-fit: cover;
+  object-fit: center;
   pointer-events: none;
   width: 100vmax;
   z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
   top: 0;
   left: 50%;
@@ -92,7 +96,7 @@ li::marker {
 }
 
 a {
-  color: #000;
+  color: #f5f5f5;
   text-decoration: none;
 }
 
