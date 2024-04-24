@@ -18,7 +18,6 @@ import React from "react";
  */
 import image from "../images/backgroundAraeneaCLI2.jpg";
 
-const imageAltText = "purple and blue abstract background";
 
 /**
  * Sort description that expands on your title on the Home component.
@@ -35,7 +34,7 @@ const skillsList = [
   "Mobile Application Development",
   "Desktop Application Development",
   "Reverse Engineering",
-  "Digital Forensics"
+  "Digital Forensics",
 ];
 
 /**
