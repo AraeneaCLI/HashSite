@@ -31,8 +31,6 @@ const description =
  */
 const skillsList = [
   "Full Stack Development",
-  "Mobile Application Development",
-  "Desktop Application Development",
   "Reverse Engineering",
   "Digital Forensics",
 ];
@@ -57,6 +55,8 @@ const About = () => {
           margin: "3rem auto",
           textAlign: "center",
           FontFace: "sans-serif",
+          display: "absolute",
+          flexDirection: "column",
         }}
       >
         <h2>About Myself</h2>
@@ -64,9 +64,8 @@ const About = () => {
         <ul
           style={{
             textAlign: "left",
-            columns: 2,
             fontSize: "24px",
-            margin: "2rem 3rem",
+            margin: "8rem 9rem",
             gap: "3rem",
           }}
         >
